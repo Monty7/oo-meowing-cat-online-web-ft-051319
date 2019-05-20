@@ -3,9 +3,10 @@ class Cat
   attr_accessor :name
   
   def meow
-    puts @sound
+    puts "meow!"
   end
 end
 
 myCat = Cat.new 
-myCat.sound
+myCat.name = "Fefe"
+myCat.meow
