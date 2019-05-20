@@ -6,3 +6,6 @@ class Cat
     puts @name
   end
 end
+
+myCat = Cat.new 
+myCat.meow
